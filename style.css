@@ -1,10 +1,50 @@
+@charset
+/* ESTILO DO CABEÇALHO */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
 
 body{
-    background-size: cover;
-    background-image:linear-gradient(black, red );
+    background-image: linear-gradient(black 40%,red);
+    height: 100vh;
+    font-family: "Kanit", sans-serif;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* ESTILO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+}
+
+header>.interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.50s;
+}
+
+header a:hover{
+    color: red;
+    transform:scale(1.10);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
 }
