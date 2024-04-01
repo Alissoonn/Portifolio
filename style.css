@@ -1,5 +1,6 @@
-@charset
-/* ESTILO DO CABEÇALHO */
+@charset "UTF-8";
+
+/* ESTILO GERAL */
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 }
 
 body{
-    background-image: linear-gradient(black 40%,red);
+    background-color: black;
     height: 100vh;
     font-family: "Kanit", sans-serif;
 }
@@ -16,35 +17,99 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
-/* ESTILO DO CABEÇALHO */
+.flex{
+    display: flex;
+}
 
+
+/* ESTILO GERAL */
+
+
+/* ESTILO DO CABEÇALHO */
 header{
     padding: 40px 4%;
 }
 
-header>.interface{
+header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 header a{
-    color: rgb(140, 140, 140);
+    color: rgb(161, 160, 160);
     text-decoration: none;
     display: inline-block;
     transition: 0.50s;
 }
 
 header a:hover{
-    color: red;
+    color: lightseagreen;
     transform:scale(1.10);
 }
 
 header nav ul{
     list-style-type: none;
+    justify-content: center;
+    text-align: center;
 }
 
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
+    
+}
+
+/* ESTILO DO CABEÇALHO */
+
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-site{
+    padding: 40px 4%;
+}
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-site h1{
+    color: white;
+    font-size: 45px;
+}
+
+.topo-site .txt-topo-site p{
+    color: white;
+    margin: 40px 0;
+}
+
+.btn-contato button{
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: lightseagreen;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.50s;
+    color: white;
+}
+
+.btn-contato button:hover{
+    transform: scale(1.10);
+}
+
+.topo-site .img-topo-site img{
+    position: relative;
+    animation: flutuando 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuando{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
 }
