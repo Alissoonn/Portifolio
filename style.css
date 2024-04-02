@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.846);
     height: 100vh;
     font-family: "Kanit", sans-serif;
 }
@@ -21,8 +21,17 @@ body{
     display: flex;
 }
 
+h2.titulo{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
 
+h2.titulo span{
+    color: lightseagreen;
+}
 /* ESTILO GERAL */
+
 
 
 /* ESTILO DO CABEÇALHO */
@@ -37,7 +46,7 @@ header > .interface{
 }
 
 header a{
-    color: rgb(161, 160, 160);
+    color: white;
     text-decoration: none;
     display: inline-block;
     transition: 0.50s;
@@ -45,7 +54,7 @@ header a{
 
 header a:hover{
     color: lightseagreen;
-    transform:scale(1.10);
+    transform:scale(1.50);
 }
 
 header nav ul{
@@ -57,10 +66,10 @@ header nav ul{
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
-    
+    font-size: 20px;
 }
-
 /* ESTILO DO CABEÇALHO */
+
 
 
 /* ESTILO DO TOPO DO SITE */
@@ -112,4 +121,38 @@ section.topo-site .flex{
     100%{
         top: 30px;
     }
+}
+/* ESTILO DO TOPO DO SITE */
+
+
+/* ESTILO DAS HABILIDADES */
+section.habilidades{
+    padding: 40px 4%;
+}
+
+section.habilidades .flex{
+    gap: 60px;
+}
+
+.habilidades .habilidades-box{
+    color: white;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 25px;
+    transition: 0.50s;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(32, 178, 171, 0.513);
+}
+
+.habilidades .habilidades-box i{
+    font-size: 40px;
+    color: lightseagreen
+}
+
+.habilidades .habilidades-box h3{
+    font-size: 30px;
+    margin: 15px 0;
 }
