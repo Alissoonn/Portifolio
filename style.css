@@ -123,8 +123,6 @@ section.topo-site .flex{
     margin-left: 200px;
 }
 
-
-
 .topo-site .img-topo-site img{
     position: relative;
     animation: flutuando 2s ease-in-out infinite alternate;
@@ -153,6 +151,7 @@ section.habilidades .flex{
 .habilidades .habilidades-box{
     color: white;
     padding: 40px;
+    margin-bottom: 15px;
     margin-top: 45px;
     border-radius: 25px;
     transition: 0.50s;
@@ -169,6 +168,25 @@ section.habilidades .flex{
 }
 
 .habilidades .habilidades-box h3{
-    font-size: 30px;
-    margin: 15px 0;
+    font-size: 20px;
+    margin: 10px 0;
+}
+/* ESTILO DAS HABILIDADES */
+
+/* ESTILO DOS PROJETOS */
+
+section.projetos{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px rgba(32, 178, 171, 0.189);
+}
+
+section.projetos .flex{
+    justify-content: space-around;
+} 
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-color: lightseagreen;
 }
