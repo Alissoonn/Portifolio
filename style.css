@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.822);
+   background-color: rgba(0, 0, 0, 0.822);
     height: 100vh;
     font-family: "Kanit", sans-serif;
 }
@@ -174,8 +174,8 @@ section.habilidades .flex{
 }
 /* ESTILO DAS HABILIDADES */
 
-/* ESTILO DOS PROJETOS */
 
+/* ESTILO DOS PROJETOS */
 section.projetos{
     padding: 80px 5%;
     box-shadow: 0 0 40px rgba(32, 178, 171, 0.189);
@@ -221,3 +221,58 @@ section.projetos .flex{
 .overlay:hover{
     opacity: 1;
 }
+/* ESTILO DOS PROJETOS */
+
+
+/* ESTILO FALE COMIGO */
+section.formulario{
+    padding: 50px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.326);
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+    padding: 45px 15px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.326);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form.btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form.btn-enviar input{
+    width: 200px;
+    background-color: lightseagreen;
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
