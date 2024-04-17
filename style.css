@@ -306,9 +306,21 @@ footer .linha-footer p a{
     }
     /* CLASSES GERAIS */
 
+
     /* CABEÇALHO */
     .menu-desktop{
         display: none;
     }
     /* CABEÇALHO */
+
+    
+    /* TOPO DO SITE */
+    .topo-site h1{
+        font-size: 32px;
+    }
+    .topo-site .img-topo-site img{
+        width: 110%;
+        margin-right: 30px;
+    }
+    /* TOPO DO SITE */
 }
