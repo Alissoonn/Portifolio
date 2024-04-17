@@ -36,10 +36,7 @@ button:hover,form .btn-enviar input:hover{
     transform: scale(1.10);
     box-shadow: 0px 0px 8px lightseagreen;
 }
-
-
 /* ESTILO GERAL */
-
 
 
 /* ESTILO DO CABEÇALHO */
@@ -112,7 +109,7 @@ section.topo-site .flex{
     text-align: center;
 }
 
-.txt-topo-site .btn-contato .btn-social button{
+ .btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -120,10 +117,10 @@ section.topo-site .flex{
     background-color: lightseagreen;
     font-size: 25px;
     cursor: pointer;
-    margin: 5px;
+    margin: 2px;
     transition: 0.5s;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 10px;
 }
 
 .topo-site .img-topo-site img{
@@ -278,4 +275,40 @@ form .btn-enviar input{
     cursor: pointer;
     transition: 0.5s;
 }
+/* ESTILO FALE COMIGO */
 
+
+/* ESTILO DO RODAPÉ */
+footer{
+    padding: 60px 6%;
+    box-shadow: 0px 0px 8px lightseagreen;
+}
+
+footer .linha-footer p i{
+    color: lightseagreen;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+footer .linha-footer p a{
+    color:white;
+    margin: 10px;
+    margin-left: 10px;
+}
+/* ESTILO DO RODAPÉ */
+
+
+/* CONFIGURAÇÃO DE RESPONSIVIDADE */
+@media screen and (max-width:900px) {
+    /* CLASSES GERAIS */
+    .flex{
+        flex-direction: column;
+    }
+    /* CLASSES GERAIS */
+
+    /* CABEÇALHO */
+    .menu-desktop{
+        display: none;
+    }
+    /* CABEÇALHO */
+}
