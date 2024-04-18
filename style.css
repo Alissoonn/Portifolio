@@ -304,6 +304,14 @@ footer .linha-footer p a{
     .flex{
         flex-direction: column;
     }
+
+    h2.titulo{
+        line-height: 45px;
+    }
+
+    .btn-social{
+        text-align: center;
+    }
     /* CLASSES GERAIS */
 
 
@@ -323,4 +331,25 @@ footer .linha-footer p a{
         margin-right: 30px;
     }
     /* TOPO DO SITE  .txt-topo-site .btn-contato */
-}
+
+    /* ESTILO DAS HABILIDADES */
+    section.habilidades{
+        padding: 40px 8%;
+        font-size: larger;
+    }
+
+    /* ESTILO PORTIFOLIO */
+    section.projetos{
+    padding: 80px 5%;
+    border-radius: 20px;
+    }
+    .img-port{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    }   
+    /* RODAPÉ */
+
+    footer .linha-footer{
+    text-align: center;
+    }
