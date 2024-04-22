@@ -8,7 +8,7 @@
 }
 
 body{
-   background-color: rgba(0, 0, 0, 0.822);
+    background-color: rgba(0, 0, 0, 0.822);
     height: 100vh;
     font-family: "Kanit", sans-serif;
 }
@@ -26,6 +26,7 @@ h2.titulo{
     font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
+    
 }
 
 h2.titulo span{
@@ -64,14 +65,14 @@ header a:hover{
 
 header nav ul{
     list-style-type: none;
-    justify-content: center;
-    text-align: center;
 }
 
 header nav ul li{
     display: inline-block;
     padding: 0 40px;
     font-size: 20px;
+    position: relative;
+    left: 240px;
 }
 /* ESTILO DO CABEÇALHO */
 
@@ -91,6 +92,8 @@ section.topo-site .flex{
 .topo-site h1{
     color: white;
     font-size: 45px;
+    font-family: "Kanit";
+    text-align: center;
 }
 
 .topo-site .txt-topo-site p{
@@ -164,7 +167,7 @@ section.habilidades .flex{
 
 .habilidades .habilidades-box i{
     font-size: 40px;
-    color: lightseagreen
+    color: lightseagreen;
 }
 
 .habilidades .habilidades-box h3{
@@ -335,7 +338,8 @@ footer .linha-footer p a{
     /* ESTILO DAS HABILIDADES */
     section.habilidades{
         padding: 40px 8%;
-        font-size: larger;
+        font-size: 25px;
+        font-weight: bolder;
     }
 
     /* ESTILO PORTIFOLIO */
@@ -353,3 +357,4 @@ footer .linha-footer p a{
     footer .linha-footer{
     text-align: center;
     }
+}
