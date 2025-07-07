@@ -99,11 +99,18 @@
     <section class="formulario">
         <div class="interface">
             <h2 id="titulo3" class="titulo">FALE <span>COMIGO</span></h2>
-            <form action="">
+            <form action="https://formsubmit.co/alissondias1523@gmail.com" method="post">
                 <input type="text" placeholder="Seu nome:">
                 <input type="text" placeholder="Seu e-mail:">
                 <input type="text" placeholder="Seu telefone:">
                 <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
+
+                <!--Evita Spam-->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!--Redirecionamento após envio-->
+                <input type="hidden" name="_next" value="https://alissoonn.github.io/Portifolio/">
+
                 <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
             </form>
         </div>
@@ -126,5 +133,7 @@
         </div>
        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
